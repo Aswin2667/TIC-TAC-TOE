@@ -30,6 +30,7 @@
   gap: 10px;
   flex-wrap: wrap;
   width: 320px;
+  margin-top: 10px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -42,6 +43,7 @@
   position: absolute;
   left: 50%;
   top: 20%;
+  width: max-content;
   transform: translate(-50%,-50%);
   color:deeppink;
   font-size: xx-large;
