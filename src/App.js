@@ -62,38 +62,26 @@ useEffect(() => {
   if(board[0][0]==='O'&&board[0][1]==='O'&&board[0][2]==='O'){
     setgameover(true)
     setwinner("PLAYER 2 is the winner");    return;
-
-
   }
   if(board[1][0]==='O'&&board[1][1]==='O'&&board[1][2]==='O'){
     setgameover(true)
     setwinner("PLAYER 2 is the winner");    return;
-
-
   }
-  if(board[2][0]==='O'&&board[2][1]==='X'&&board[2][2]==='X'){
+  if(board[2][0]==='O'&&board[2][1]==='O'&&board[2][2]==='O'){
     setgameover(true)
     setwinner("PLAYER 2 is the winner");    return;
-
-
   }
   if(board[0][0]==='O'&&board[1][0]==='O'&&board[2][0]==='O'){
     setgameover(true)
     setwinner("PLAYER 2 is the winner");    return;
-
-
   }
   if(board[0][1]==='O'&&board[1][1]==='O'&&board[2][1]==='O'){
     setgameover(true)
     setwinner("PLAYER 2 is the winner");    return;
-
-
   }
   if(board[0][2]==='O'&&board[1][2]==='O'&&board[2][2]==='O'){
     setgameover(true)
     setwinner("PLAYER 2 is the winner");    return;
-
-
   }
   if(board[0][0]==='O'&&board[1][1]==='O'&&board[2][2]==='O'){
     setgameover(true)
