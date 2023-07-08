@@ -1,0 +1,59 @@
+.disable-selection {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+.disable-selection:hover{
+  cursor: pointer;
+}
+.box{
+  font-size: xx-large;
+  height: 100px;
+  width: 100px;
+  background: blueviolet;
+  color: wheat;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box:hover{
+  position:static;
+  cursor: pointer;
+  transition: 200ms;
+  background-color: rgb(58, 0, 112);
+  color: aliceblue;
+}
+.container{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 320px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border: 10px solid lightcoral;
+  border-radius: 10px;
+  padding: 10px;
+}
+.top{
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%,-50%);
+  color:deeppink;
+  font-size: xx-large;
+}
+.finale{
+  color: green;
+  position: fixed;
+  width: 350px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border: 5px solid grey;
+  padding: 10px;
+}
