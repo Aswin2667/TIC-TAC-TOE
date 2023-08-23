@@ -42,7 +42,7 @@
 .top{
   position: absolute;
   left: 50%;
-  top: 20%;
+  top: 10%;
   width: max-content;
   transform: translate(-50%,-50%);
   color:deeppink;
